@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-23T09:05:47.190Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="oM2zNhxmGR23vA-O-3Qx" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-23T09:11:00.067Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="LlnweakjADPbr0ep8IQx" version="20.2.4" type="github">
   <diagram id="4kLa4Momye6eRYNvdGWG" name="第 1 页">
     <mxGraphModel dx="1422" dy="1831" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -90,11 +90,35 @@
         <mxCell id="C2oPPoowabkBdJ4QF8pV-32" value="&lt;div style=&quot;text-align: left;&quot;&gt;BatchPlanner&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;translateToPlan(execGraph)&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E9E9F2;shadow=0;strokeWidth=0;strokeColor=#D1D1D1;" vertex="1" parent="1">
           <mxGeometry x="1349" y="383" width="228" height="72" as="geometry" />
         </mxCell>
+        <mxCell id="C2oPPoowabkBdJ4QF8pV-41" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=classic;strokeColor=#D1D1D1;strokeWidth=2;" edge="1" parent="1" source="C2oPPoowabkBdJ4QF8pV-34" target="C2oPPoowabkBdJ4QF8pV-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="C2oPPoowabkBdJ4QF8pV-34" value="&lt;div style=&quot;text-align: left;&quot;&gt;StreamPlanner&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;.translateToPlan(execGraph)&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E9E9F2;shadow=0;strokeWidth=0;strokeColor=#D1D1D1;" vertex="1" parent="1">
           <mxGeometry x="1349" y="535" width="228" height="72" as="geometry" />
         </mxCell>
         <mxCell id="C2oPPoowabkBdJ4QF8pV-37" value="&lt;div style=&quot;text-align: left;&quot;&gt;SqlNode--&amp;gt;Operation&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;convertValidatedSqlNode&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E9E9F2;shadow=0;strokeWidth=0;strokeColor=#D1D1D1;" vertex="1" parent="1">
           <mxGeometry x="406" y="127" width="228" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="C2oPPoowabkBdJ4QF8pV-43" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=classic;strokeColor=#D1D1D1;strokeWidth=2;" edge="1" parent="1" source="C2oPPoowabkBdJ4QF8pV-40" target="C2oPPoowabkBdJ4QF8pV-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C2oPPoowabkBdJ4QF8pV-40" value="&lt;div style=&quot;text-align: left;&quot;&gt;node.translateToPlan&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E9E9F2;shadow=0;strokeWidth=0;strokeColor=#D1D1D1;" vertex="1" parent="1">
+          <mxGeometry x="1657" y="535" width="228" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="C2oPPoowabkBdJ4QF8pV-45" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=classic;strokeColor=#D1D1D1;strokeWidth=2;" edge="1" parent="1" source="C2oPPoowabkBdJ4QF8pV-42" target="C2oPPoowabkBdJ4QF8pV-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C2oPPoowabkBdJ4QF8pV-48" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=classic;strokeColor=#D1D1D1;strokeWidth=2;" edge="1" parent="1" source="C2oPPoowabkBdJ4QF8pV-42" target="C2oPPoowabkBdJ4QF8pV-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C2oPPoowabkBdJ4QF8pV-42" value="&lt;div style=&quot;text-align: left;&quot;&gt;StreamExecJoin为例&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;.translateToPlanInternal&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E9E9F2;shadow=0;strokeWidth=0;strokeColor=#D1D1D1;" vertex="1" parent="1">
+          <mxGeometry x="1657" y="687" width="228" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="C2oPPoowabkBdJ4QF8pV-44" value="&lt;div style=&quot;text-align: left;&quot;&gt;StreamingJoinOperator&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E9E9F2;shadow=0;strokeWidth=0;strokeColor=#D1D1D1;" vertex="1" parent="1">
+          <mxGeometry x="1508" y="823" width="228" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="C2oPPoowabkBdJ4QF8pV-46" value="&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp;ExecNodeUtil.createTwoInputTransformation&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;返回transform&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E9E9F2;shadow=0;strokeWidth=0;strokeColor=#D1D1D1;" vertex="1" parent="1">
+          <mxGeometry x="1823" y="823" width="228" height="72" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
