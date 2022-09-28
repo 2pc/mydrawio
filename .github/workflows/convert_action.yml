@@ -1,4 +1,4 @@
-name:render .drawio files 
+name: Keep draw.io export synchronized
 on:
   push:
     branches:
@@ -25,4 +25,3 @@ jobs:
         with:
           branch: master
           message: 'Convert .Drawio to PNG'
-
