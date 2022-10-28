@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-28T11:07:30.274Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="XlMX9IS1fhgi51BcNOdc" version="20.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-28T11:21:50.276Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="qT0zzMhkkf2UOprsXl0l" version="20.4.2" type="github">
   <diagram id="SSZb4LGcScfZeePBLPw1" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -76,8 +76,35 @@
         <mxCell id="ybn0plZ0nBdsRySHem8g-31" value="AppendOnly&lt;br&gt;FileStoreTable&lt;br&gt;.writeSinkRecord" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#216EFF;strokeColor=#1C7ED6;fontColor=#FFFFFF;fontFamily=Comic Sans MS;fontStyle=2" vertex="1" parent="1">
           <mxGeometry x="440" y="442" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="ybn0plZ0nBdsRySHem8g-38" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#B3B3B3;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="ybn0plZ0nBdsRySHem8g-35" target="ybn0plZ0nBdsRySHem8g-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ybn0plZ0nBdsRySHem8g-35" value="MergeTreeWriter&lt;br&gt;.write(kv)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#216EFF;strokeColor=#1C7ED6;fontColor=#FFFFFF;fontFamily=Comic Sans MS;fontStyle=2" vertex="1" parent="1">
           <mxGeometry x="40" y="582" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ybn0plZ0nBdsRySHem8g-37" value="SortBufferMemTable&lt;br&gt;put" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#216EFF;strokeColor=#1C7ED6;fontColor=#FFFFFF;fontFamily=Comic Sans MS;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="40" y="722" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ybn0plZ0nBdsRySHem8g-41" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#B3B3B3;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontColor=#000000;endArrow=classic;" edge="1" parent="1" source="ybn0plZ0nBdsRySHem8g-39" target="ybn0plZ0nBdsRySHem8g-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ybn0plZ0nBdsRySHem8g-46" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=#B3B3B3;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontColor=#000000;endArrow=classic;" edge="1" parent="1" source="ybn0plZ0nBdsRySHem8g-39" target="ybn0plZ0nBdsRySHem8g-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ybn0plZ0nBdsRySHem8g-47" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=default;strokeColor=#B3B3B3;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontColor=#000000;endArrow=classic;" edge="1" parent="1" source="ybn0plZ0nBdsRySHem8g-39" target="ybn0plZ0nBdsRySHem8g-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ybn0plZ0nBdsRySHem8g-39" value="&lt;font&gt;CompactTask&lt;br&gt;.doCompact&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#EEEFF1;fontFamily=Helvetica;fontSize=11;fontColor=#000000;fillColor=#EEEFF1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="908" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ybn0plZ0nBdsRySHem8g-40" value="&lt;font&gt;IterativeCompactTask&lt;br&gt;.doCompact&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#EEEFF1;fontFamily=Helvetica;fontSize=11;fontColor=#000000;fillColor=#EEEFF1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="1048" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ybn0plZ0nBdsRySHem8g-42" value="&lt;font&gt;AutoCompactTask&lt;br&gt;.doCompact&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#EEEFF1;fontFamily=Helvetica;fontSize=11;fontColor=#000000;fillColor=#EEEFF1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="1048" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ybn0plZ0nBdsRySHem8g-44" value="&lt;font&gt;MergeTreeCompactTask&lt;br&gt;.doCompact&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#EEEFF1;fontFamily=Helvetica;fontSize=11;fontColor=#000000;fillColor=#EEEFF1;" vertex="1" parent="1">
+          <mxGeometry x="525" y="1048" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
