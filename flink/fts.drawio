@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-28T08:58:44.587Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="KPwk8hTZea_VU3RMzfOp" version="20.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-28T11:07:30.274Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="XlMX9IS1fhgi51BcNOdc" version="20.4.2" type="github">
   <diagram id="SSZb4LGcScfZeePBLPw1" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -52,8 +52,32 @@
         <mxCell id="ybn0plZ0nBdsRySHem8g-20" value="new &lt;br&gt;MergeTreeWriter" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#216EFF;strokeColor=#1C7ED6;fontColor=#FFFFFF;fontFamily=Comic Sans MS;fontStyle=2" vertex="1" parent="1">
           <mxGeometry x="240" y="22" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="ybn0plZ0nBdsRySHem8g-28" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#B3B3B3;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="ybn0plZ0nBdsRySHem8g-24" target="ybn0plZ0nBdsRySHem8g-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ybn0plZ0nBdsRySHem8g-33" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=#B3B3B3;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="ybn0plZ0nBdsRySHem8g-24" target="ybn0plZ0nBdsRySHem8g-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ybn0plZ0nBdsRySHem8g-34" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=default;strokeColor=#B3B3B3;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="ybn0plZ0nBdsRySHem8g-24" target="ybn0plZ0nBdsRySHem8g-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ybn0plZ0nBdsRySHem8g-24" value="AbstractTableWrite&lt;br&gt;.writeSinkRecord" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#216EFF;strokeColor=#1C7ED6;fontColor=#FFFFFF;fontFamily=Comic Sans MS;fontStyle=2" vertex="1" parent="1">
           <mxGeometry x="240" y="302" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ybn0plZ0nBdsRySHem8g-27" value="ChangelogWithKey&lt;br&gt;FileStoreTable&lt;br&gt;.writeSinkRecord" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#216EFF;strokeColor=#1C7ED6;fontColor=#FFFFFF;fontFamily=Comic Sans MS;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="240" y="442" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ybn0plZ0nBdsRySHem8g-36" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#B3B3B3;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="ybn0plZ0nBdsRySHem8g-29" target="ybn0plZ0nBdsRySHem8g-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ybn0plZ0nBdsRySHem8g-29" value="ChangelogValueCount&lt;br&gt;FileStoreTable&lt;br&gt;.writeSinkRecord" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#216EFF;strokeColor=#1C7ED6;fontColor=#FFFFFF;fontFamily=Comic Sans MS;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="40" y="442" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ybn0plZ0nBdsRySHem8g-31" value="AppendOnly&lt;br&gt;FileStoreTable&lt;br&gt;.writeSinkRecord" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#216EFF;strokeColor=#1C7ED6;fontColor=#FFFFFF;fontFamily=Comic Sans MS;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="440" y="442" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ybn0plZ0nBdsRySHem8g-35" value="MergeTreeWriter&lt;br&gt;.write(kv)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#216EFF;strokeColor=#1C7ED6;fontColor=#FFFFFF;fontFamily=Comic Sans MS;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="40" y="582" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
