@@ -1,18 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2022-11-07T09:17:26.461Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="-PefTsEUrXCJOz-c_9Cx" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-07T09:41:26.263Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="veSboUwpnwPlMkqR9RqO" version="20.5.1" type="github">
   <diagram id="_lTBBIoLu2woIYjRZtPv" name="第 1 页">
     <mxGraphModel dx="1422" dy="706" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="sNnbNBzzXG9hw_bHCgmw-82" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=#216EFF;strokeWidth=2;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="sNnbNBzzXG9hw_bHCgmw-60" target="sNnbNBzzXG9hw_bHCgmw-80">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="520" y="848" />
-              <mxPoint x="787" y="848" />
-              <mxPoint x="787" y="1195" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="sNnbNBzzXG9hw_bHCgmw-60" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=16;fontColor=#FFFFFF;arcSize=4;" vertex="1" parent="1">
           <mxGeometry x="235" y="560" width="570" height="253" as="geometry" />
         </mxCell>
@@ -136,6 +127,9 @@
         <mxCell id="sNnbNBzzXG9hw_bHCgmw-45" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Completion(UniApply)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;.exec()&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEFF1;strokeColor=#EEEFF1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="654" y="606" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-86" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#216EFF;strokeWidth=2;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="sNnbNBzzXG9hw_bHCgmw-48" target="sNnbNBzzXG9hw_bHCgmw-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="sNnbNBzzXG9hw_bHCgmw-48" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;UniApply&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;.tryFire()&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEFF1;strokeColor=#EEEFF1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="654" y="746" width="120" height="60" as="geometry" />
         </mxCell>
@@ -195,6 +189,31 @@
         </mxCell>
         <mxCell id="sNnbNBzzXG9hw_bHCgmw-84" value="最后一个stage应该是Signaller" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="244" y="1160" width="458" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-88" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#216EFF;strokeWidth=2;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="sNnbNBzzXG9hw_bHCgmw-85" target="sNnbNBzzXG9hw_bHCgmw-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-85" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;CompletableFuture&lt;/span&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;.postFire()&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEFF1;strokeColor=#EEEFF1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="454" y="746" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-90" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#216EFF;strokeWidth=2;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="sNnbNBzzXG9hw_bHCgmw-87" target="sNnbNBzzXG9hw_bHCgmw-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-87" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;CompletableFuture&lt;/span&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;.postComplete()&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEFF1;strokeColor=#EEEFF1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="254" y="746" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-91" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=#216EFF;strokeWidth=2;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="sNnbNBzzXG9hw_bHCgmw-89" target="sNnbNBzzXG9hw_bHCgmw-80">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="42" y="776" />
+              <mxPoint x="42" y="859" />
+              <mxPoint x="784" y="859" />
+              <mxPoint x="784" y="1195" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-89" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Signaller&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;.tryFire(NESTED)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEFF1;strokeColor=#EEEFF1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="54" y="746" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
