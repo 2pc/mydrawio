@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-07T11:40:15.929Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="tuKmT6_JsXx0EjUn0rSE" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-07T11:49:15.419Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="OoVtpRxsAkYEEqVKnkJ3" version="20.5.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -85,7 +85,7 @@
         <mxCell id="hnCkHFHXLwoQbdfKQRC3-7" value="通知中心" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontFamily=Comic Sans MS;fontSize=18;fontColor=#216EFF;strokeColor=#EEEEEE;strokeWidth=3;fillColor=#FFFFFF;fontStyle=0;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="326.5" y="916" width="187" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="hnCkHFHXLwoQbdfKQRC3-8" value="开放平台portal" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontFamily=Comic Sans MS;fontSize=18;fontColor=#216EFF;strokeColor=#EEEEEE;strokeWidth=3;fillColor=#FFFFFF;fontStyle=0;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="hnCkHFHXLwoQbdfKQRC3-8" value="开放平台portal" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontFamily=Comic Sans MS;fontSize=18;strokeColor=#6c8ebf;strokeWidth=3;fillColor=#dae8fc;fontStyle=0;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="100.5" y="612" width="692" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hnCkHFHXLwoQbdfKQRC3-9" value="开平账号" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontFamily=Comic Sans MS;fontSize=18;fontColor=#216EFF;strokeColor=#EEEEEE;strokeWidth=3;fillColor=#FFFFFF;fontStyle=0;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
