@@ -1,1 +1,202 @@
-<mxfile host="app.diagrams.net" modified="2022-11-07T08:31:58.110Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" version="20.4.2" etag="xHuIOvyA-uqtqFhyZ6PO" type="github"><diagram id="_lTBBIoLu2woIYjRZtPv">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-07T09:17:26.461Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="-PefTsEUrXCJOz-c_9Cx" version="20.5.1" type="github">
+  <diagram id="_lTBBIoLu2woIYjRZtPv" name="第 1 页">
+    <mxGraphModel dx="1422" dy="706" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-82" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=#216EFF;strokeWidth=2;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="sNnbNBzzXG9hw_bHCgmw-60" target="sNnbNBzzXG9hw_bHCgmw-80">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="848" />
+              <mxPoint x="787" y="848" />
+              <mxPoint x="787" y="1195" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-60" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=16;fontColor=#FFFFFF;arcSize=4;" vertex="1" parent="1">
+          <mxGeometry x="235" y="560" width="570" height="253" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-7" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=default;strokeColor=#216EFF;strokeWidth=2;fontFamily=Comic Sans MS;fontSize=16;fontColor=#FFFFFF;endArrow=classic;endFill=1;" edge="1" parent="1" source="sNnbNBzzXG9hw_bHCgmw-2" target="sNnbNBzzXG9hw_bHCgmw-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-2" value="&lt;font style=&quot;font-size: 16px&quot; face=&quot;Comic Sans MS&quot;&gt;CompletableFuture&lt;br&gt;.thenApplyAsync()&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEFF1;strokeColor=#EEEFF1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="54" y="46" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-9" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#216EFF;strokeWidth=2;fontFamily=Comic Sans MS;fontSize=16;fontColor=#FFFFFF;endArrow=classic;endFill=1;" edge="1" parent="1" source="sNnbNBzzXG9hw_bHCgmw-5" target="sNnbNBzzXG9hw_bHCgmw-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-5" value="&lt;font style=&quot;font-size: 16px&quot; face=&quot;Comic Sans MS&quot;&gt;CompletableFuture&lt;br&gt;.uniApplyStage()&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEFF1;strokeColor=#EEEFF1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="254" y="46" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-11" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#216EFF;strokeWidth=2;fontFamily=Comic Sans MS;fontSize=16;fontColor=#FFFFFF;endArrow=classic;endFill=1;" edge="1" parent="1" source="sNnbNBzzXG9hw_bHCgmw-8" target="sNnbNBzzXG9hw_bHCgmw-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-8" value="&lt;font style=&quot;font-size: 16px&quot; face=&quot;Comic Sans MS&quot;&gt;UniApply&lt;br&gt;.tryFire()&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEFF1;strokeColor=#EEEFF1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="454" y="46" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-13" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#216EFF;strokeWidth=2;fontFamily=Comic Sans MS;fontSize=16;fontColor=#FFFFFF;endArrow=classic;endFill=1;" edge="1" parent="1" source="sNnbNBzzXG9hw_bHCgmw-10" target="sNnbNBzzXG9hw_bHCgmw-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-10" value="&lt;font style=&quot;font-size: 16px&quot; face=&quot;Comic Sans MS&quot;&gt;CompletableFuture&lt;br&gt;.uniApply()&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEFF1;strokeColor=#EEEFF1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="654" y="46" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-15" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#216EFF;strokeWidth=2;fontFamily=Comic Sans MS;fontSize=16;fontColor=#FFFFFF;endArrow=classic;endFill=1;" edge="1" parent="1" source="sNnbNBzzXG9hw_bHCgmw-12" target="sNnbNBzzXG9hw_bHCgmw-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-12" value="&lt;font style=&quot;font-size: 16px&quot; face=&quot;Comic Sans MS&quot;&gt;UniComletion&lt;br&gt;.claim()&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEFF1;strokeColor=#EEEFF1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="654" y="186" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-17" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#216EFF;strokeWidth=2;fontFamily=Comic Sans MS;fontSize=16;fontColor=#FFFFFF;endArrow=classic;endFill=1;" edge="1" parent="1" source="sNnbNBzzXG9hw_bHCgmw-14" target="sNnbNBzzXG9hw_bHCgmw-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-14" value="&lt;font style=&quot;font-size: 16px&quot; face=&quot;Comic Sans MS&quot;&gt;ForkJoinPool&lt;br&gt;.execute()&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEFF1;strokeColor=#EEEFF1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="454" y="186" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-19" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#216EFF;strokeWidth=2;fontFamily=Comic Sans MS;fontSize=16;fontColor=#FFFFFF;endArrow=classic;endFill=1;" edge="1" parent="1" source="sNnbNBzzXG9hw_bHCgmw-16" target="sNnbNBzzXG9hw_bHCgmw-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-16" value="&lt;font style=&quot;font-size: 16px&quot; face=&quot;Comic Sans MS&quot;&gt;ForkJoinPool&lt;br&gt;.externalPush()&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEFF1;strokeColor=#EEEFF1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="254" y="186" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-21" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#216EFF;strokeWidth=2;fontFamily=Comic Sans MS;fontSize=16;fontColor=#FFFFFF;endArrow=classic;endFill=1;" edge="1" parent="1" source="sNnbNBzzXG9hw_bHCgmw-18" target="sNnbNBzzXG9hw_bHCgmw-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-18" value="&lt;font style=&quot;font-size: 16px&quot; face=&quot;Comic Sans MS&quot;&gt;ForkJoinPool&lt;br&gt;.externalSubmit()&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEFF1;strokeColor=#EEEFF1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="54" y="186" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-23" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#216EFF;strokeWidth=2;fontFamily=Comic Sans MS;fontSize=16;fontColor=#FFFFFF;endArrow=classic;endFill=1;" edge="1" parent="1" source="sNnbNBzzXG9hw_bHCgmw-20" target="sNnbNBzzXG9hw_bHCgmw-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-20" value="&lt;font style=&quot;font-size: 16px&quot; face=&quot;Comic Sans MS&quot;&gt;ForkJoinPool&lt;br&gt;.signalWork()&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEFF1;strokeColor=#EEEFF1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="54" y="326" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-26" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#216EFF;strokeWidth=2;fontFamily=Comic Sans MS;fontSize=16;fontColor=#FFFFFF;endArrow=classic;endFill=1;" edge="1" parent="1" source="sNnbNBzzXG9hw_bHCgmw-22" target="sNnbNBzzXG9hw_bHCgmw-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-22" value="&lt;font style=&quot;font-size: 16px&quot; face=&quot;Comic Sans MS&quot;&gt;ForkJoinPool&lt;br&gt;.tryAddWorker()&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEFF1;strokeColor=#EEEFF1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="254" y="326" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-29" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#216EFF;strokeWidth=2;fontFamily=Comic Sans MS;fontSize=16;fontColor=#FFFFFF;endArrow=classic;endFill=1;" edge="1" parent="1" source="sNnbNBzzXG9hw_bHCgmw-25" target="sNnbNBzzXG9hw_bHCgmw-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-25" value="&lt;font style=&quot;font-size: 16px&quot; face=&quot;Comic Sans MS&quot;&gt;ForkJoinPool&lt;br&gt;.createWorker()&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEFF1;strokeColor=#EEEFF1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="454" y="326" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-31" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#216EFF;strokeWidth=2;fontFamily=Comic Sans MS;fontSize=16;fontColor=#FFFFFF;endArrow=classic;endFill=1;" edge="1" parent="1" source="sNnbNBzzXG9hw_bHCgmw-28" target="sNnbNBzzXG9hw_bHCgmw-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-28" value="&lt;font style=&quot;font-size: 16px&quot; face=&quot;Comic Sans MS&quot;&gt;ForkJoinWorkerThreadFactory&lt;br&gt;.newThread()&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEFF1;strokeColor=#EEEFF1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="654" y="326" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-33" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#216EFF;strokeWidth=2;fontFamily=Comic Sans MS;fontSize=16;fontColor=#FFFFFF;endArrow=classic;endFill=1;" edge="1" parent="1" source="sNnbNBzzXG9hw_bHCgmw-30" target="sNnbNBzzXG9hw_bHCgmw-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-30" value="&lt;font style=&quot;font-size: 16px&quot; face=&quot;Comic Sans MS&quot;&gt;ForkJoinWorkerThread&lt;br&gt;.start()&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEFF1;strokeColor=#EEEFF1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="654" y="466" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-35" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#216EFF;strokeWidth=2;fontFamily=Comic Sans MS;fontSize=16;fontColor=#FFFFFF;endArrow=classic;endFill=1;" edge="1" parent="1" source="sNnbNBzzXG9hw_bHCgmw-32" target="sNnbNBzzXG9hw_bHCgmw-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-32" value="&lt;font style=&quot;font-size: 16px&quot; face=&quot;Comic Sans MS&quot;&gt;ForkJoinWorkerThread&lt;br&gt;.run()&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEFF1;strokeColor=#EEEFF1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="454" y="466" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-37" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#216EFF;strokeWidth=2;fontFamily=Comic Sans MS;fontSize=16;fontColor=#FFFFFF;endArrow=classic;endFill=1;" edge="1" parent="1" source="sNnbNBzzXG9hw_bHCgmw-34" target="sNnbNBzzXG9hw_bHCgmw-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-34" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;&quot;&gt;ForkJoinPool&lt;/div&gt;&lt;div style=&quot;&quot;&gt;.runWorker()&lt;/div&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEFF1;strokeColor=#EEEFF1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="254" y="466" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-39" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#216EFF;strokeWidth=2;fontFamily=Comic Sans MS;fontSize=16;fontColor=#FFFFFF;endArrow=classic;endFill=1;" edge="1" parent="1" source="sNnbNBzzXG9hw_bHCgmw-36" target="sNnbNBzzXG9hw_bHCgmw-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-36" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;&quot;&gt;ForkJoinPool&lt;/div&gt;&lt;div style=&quot;&quot;&gt;.scan()&lt;/div&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEFF1;strokeColor=#EEEFF1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="54" y="466" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-41" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#216EFF;strokeWidth=2;fontFamily=Comic Sans MS;fontSize=16;fontColor=#FFFFFF;endArrow=classic;endFill=1;" edge="1" parent="1" source="sNnbNBzzXG9hw_bHCgmw-38" target="sNnbNBzzXG9hw_bHCgmw-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-38" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;&quot;&gt;ForkJoinPool.WorkQueue&lt;/div&gt;&lt;div style=&quot;&quot;&gt;.runTask()&lt;/div&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEFF1;strokeColor=#EEEFF1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="54" y="606" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-43" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#216EFF;strokeWidth=2;fontFamily=Comic Sans MS;fontSize=16;fontColor=#FFFFFF;endArrow=classic;endFill=1;" edge="1" parent="1" source="sNnbNBzzXG9hw_bHCgmw-40" target="sNnbNBzzXG9hw_bHCgmw-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-40" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;UniApply(ForkJoinTask)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;.doExec()&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEFF1;strokeColor=#EEEFF1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="254" y="606" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-46" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#216EFF;strokeWidth=2;fontFamily=Comic Sans MS;fontSize=16;fontColor=#FFFFFF;endArrow=classic;endFill=1;" edge="1" parent="1" source="sNnbNBzzXG9hw_bHCgmw-42" target="sNnbNBzzXG9hw_bHCgmw-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-42" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;UniApply&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;.exec()&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEFF1;strokeColor=#EEEFF1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="454" y="606" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-49" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#216EFF;strokeWidth=2;fontFamily=Comic Sans MS;fontSize=16;fontColor=#FFFFFF;endArrow=classic;endFill=1;" edge="1" parent="1" source="sNnbNBzzXG9hw_bHCgmw-45" target="sNnbNBzzXG9hw_bHCgmw-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-45" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Completion(UniApply)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;.exec()&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEFF1;strokeColor=#EEEFF1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="654" y="606" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-48" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;UniApply&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;.tryFire()&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEFF1;strokeColor=#EEEFF1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="654" y="746" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-61" value="这里执行逻辑函数，继承关系，这些函数继承自ForkJoinTask和Completion" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="263" y="570" width="458" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-65" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#216EFF;strokeWidth=2;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="sNnbNBzzXG9hw_bHCgmw-62" target="sNnbNBzzXG9hw_bHCgmw-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-62" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;CompletableFuture&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;.get()&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEFF1;strokeColor=#EEEFF1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="47" y="885" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-67" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#216EFF;strokeWidth=2;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="sNnbNBzzXG9hw_bHCgmw-64" target="sNnbNBzzXG9hw_bHCgmw-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-64" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;CompletableFuture&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;.waitngGet()&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEFF1;strokeColor=#EEEFF1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="247" y="885" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-70" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#216EFF;strokeWidth=2;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="sNnbNBzzXG9hw_bHCgmw-66" target="sNnbNBzzXG9hw_bHCgmw-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-66" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;CompletableFuture&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;.get()&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEFF1;strokeColor=#EEEFF1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="447" y="885" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-73" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#216EFF;strokeWidth=2;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="sNnbNBzzXG9hw_bHCgmw-69" target="sNnbNBzzXG9hw_bHCgmw-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-69" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;q= new Signaller&lt;/div&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEFF1;strokeColor=#EEEFF1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="647" y="885" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-75" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#216EFF;strokeWidth=2;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="sNnbNBzzXG9hw_bHCgmw-72" target="sNnbNBzzXG9hw_bHCgmw-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-72" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;CompletableFuture&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;.tryPushStack(q)&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEFF1;strokeColor=#EEEFF1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="647" y="1025" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-77" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#216EFF;strokeWidth=2;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="sNnbNBzzXG9hw_bHCgmw-74" target="sNnbNBzzXG9hw_bHCgmw-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-74" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;ForkJoinPool&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;.managedBlock(q)&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEFF1;strokeColor=#EEEFF1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="447" y="1025" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-79" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#216EFF;strokeWidth=2;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="sNnbNBzzXG9hw_bHCgmw-76" target="sNnbNBzzXG9hw_bHCgmw-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-76" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Signaller&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;.block()&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEFF1;strokeColor=#EEEFF1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="247" y="1025" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-81" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#216EFF;strokeWidth=2;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="sNnbNBzzXG9hw_bHCgmw-78" target="sNnbNBzzXG9hw_bHCgmw-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-78" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;LockSupport&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;.park()&lt;/div&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEFF1;strokeColor=#EEEFF1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="47" y="1025" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-80" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;LockSupport&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;.unpark()&lt;/div&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEFF1;strokeColor=#EEEFF1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="47" y="1165" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sNnbNBzzXG9hw_bHCgmw-84" value="最后一个stage应该是Signaller" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="244" y="1160" width="458" height="29" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
