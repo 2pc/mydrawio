@@ -15,7 +15,7 @@ jobs:
           fetch-depth: 0
 
       - name: Export drawio files to asciidoctor and png files
-        uses: rlespinasse/drawio-export-action@v2
+        uses: rlespinasse/drawio-export-action@v2.8.0
         with:
           format: png
           transparent: true
